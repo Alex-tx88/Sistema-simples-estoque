@@ -1,0 +1,27 @@
+/* src/components/Card.css */
+.dashboard-card {
+  background-color: #f0fdf4; /* Verde claro */
+  border: 1px solid #dcfce7;
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-title {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.card-value {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 5px;
+  color: #333;
+}

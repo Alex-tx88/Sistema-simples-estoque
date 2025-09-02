@@ -1,0 +1,7 @@
+/* src/components/Dashboard.css */
+.dashboard-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 colunas de tamanho igual */
+  gap: 20px; /* Espaçamento entre os cards */
+  margin-bottom: 30px;
+}
